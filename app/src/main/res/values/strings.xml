@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="def">default</string>
+    <string name="hello">Hello</string>
+    <string name="whatsapp_service">WhatsApp Service</string>
+    <string name="accessibility_permission">Accessibility permission</string>
+</resources>
