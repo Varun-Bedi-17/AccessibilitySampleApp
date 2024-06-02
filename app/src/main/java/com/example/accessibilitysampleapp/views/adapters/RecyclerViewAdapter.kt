@@ -1,10 +1,10 @@
-package com.example.sampleapp.views.adapters
+package com.example.accessibilitysampleapp.views.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.sampleapp.databinding.RvListItemBinding
-import com.example.sampleapp.models.response.TitleWithContentResponseItem
+import com.example.accessibilitysampleapp.databinding.RvListItemBinding
+import com.example.accessibilitysampleapp.models.response.TitleWithContentResponseItem
 
 class RecyclerViewAdapter(
     private val itemsList: List<TitleWithContentResponseItem>,

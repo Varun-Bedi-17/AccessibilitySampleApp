@@ -1,9 +1,9 @@
-package com.example.sampleapp.viewModels
+package com.example.accessibilitysampleapp.viewModels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.sampleapp.models.repository.TitleWithContentRepo
-import com.example.sampleapp.models.response.TitleWithContentResponseItem
+import com.example.accessibilitysampleapp.models.repository.TitleWithContentRepo
+import com.example.accessibilitysampleapp.models.response.TitleWithContentResponseItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 

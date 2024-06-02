@@ -1,4 +1,4 @@
-package com.example.sampleapp
+package com.example.accessibilitysampleapp
 
 import org.junit.Test
 

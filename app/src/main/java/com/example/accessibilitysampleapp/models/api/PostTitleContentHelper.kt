@@ -1,4 +1,4 @@
-package com.example.sampleapp.models.api
+package com.example.accessibilitysampleapp.models.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,11 +1,11 @@
-package com.example.sampleapp.views.services
+package com.example.accessibilitysampleapp.views.services
 
 import android.accessibilityservice.AccessibilityService
 import android.content.Context
 import android.util.Log
 import android.view.accessibility.AccessibilityEvent
 import android.widget.Toast
-import com.example.sampleapp.TAG
+import com.example.accessibilitysampleapp.TAG
 
 class WhatsappAccessibilityService : AccessibilityService() {
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {

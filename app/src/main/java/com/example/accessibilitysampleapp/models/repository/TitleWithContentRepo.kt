@@ -1,10 +1,10 @@
-package com.example.sampleapp.models.repository
+package com.example.accessibilitysampleapp.models.repository
 
 import android.util.Log
-import com.example.sampleapp.TAG
-import com.example.sampleapp.models.api.PostTitleContentApi
-import com.example.sampleapp.models.response.TitleWithContentResponseItem
-import com.example.sampleapp.models.roomDatabase.TitleWithContentDatabase
+import com.example.accessibilitysampleapp.TAG
+import com.example.accessibilitysampleapp.models.api.PostTitleContentApi
+import com.example.accessibilitysampleapp.models.response.TitleWithContentResponseItem
+import com.example.accessibilitysampleapp.models.roomDatabase.TitleWithContentDatabase
 import java.io.IOException
 
 class TitleWithContentRepo(private val postTitleContentApi: PostTitleContentApi, private val titleWithContentDatabase: TitleWithContentDatabase) {

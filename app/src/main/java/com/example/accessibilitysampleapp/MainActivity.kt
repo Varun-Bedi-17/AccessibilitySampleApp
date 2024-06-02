@@ -1,4 +1,4 @@
-package com.example.sampleapp
+package com.example.accessibilitysampleapp
 
 import android.accessibilityservice.AccessibilityServiceInfo
 import android.app.Activity
@@ -14,16 +14,16 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.sampleapp.databinding.ActivityMainBinding
-import com.example.sampleapp.models.api.PostTitleContentApi
-import com.example.sampleapp.models.api.PostTitleContentHelper
-import com.example.sampleapp.models.repository.TitleWithContentRepo
-import com.example.sampleapp.models.response.TitleWithContentResponseItem
-import com.example.sampleapp.models.roomDatabase.TitleWithContentDatabase
-import com.example.sampleapp.viewModels.MainViewModel
-import com.example.sampleapp.views.adapters.RecyclerViewAdapter
-import com.example.sampleapp.views.fragments.ShowDataFragment
-import com.example.sampleapp.views.services.WhatsappAccessibilityService
+import com.example.accessibilitysampleapp.databinding.ActivityMainBinding
+import com.example.accessibilitysampleapp.models.api.PostTitleContentApi
+import com.example.accessibilitysampleapp.models.api.PostTitleContentHelper
+import com.example.accessibilitysampleapp.models.repository.TitleWithContentRepo
+import com.example.accessibilitysampleapp.models.response.TitleWithContentResponseItem
+import com.example.accessibilitysampleapp.models.roomDatabase.TitleWithContentDatabase
+import com.example.accessibilitysampleapp.viewModels.MainViewModel
+import com.example.accessibilitysampleapp.views.adapters.RecyclerViewAdapter
+import com.example.accessibilitysampleapp.views.fragments.ShowDataFragment
+import com.example.accessibilitysampleapp.views.services.WhatsappAccessibilityService
 import kotlinx.coroutines.*
 
 const val TAG = "SampleApp"

@@ -1,4 +1,4 @@
-package com.example.sampleapp.models.response
+package com.example.accessibilitysampleapp.models.response
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

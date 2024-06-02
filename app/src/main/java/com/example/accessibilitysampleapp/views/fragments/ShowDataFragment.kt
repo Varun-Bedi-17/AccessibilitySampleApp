@@ -1,11 +1,11 @@
-package com.example.sampleapp.views.fragments
+package com.example.accessibilitysampleapp.views.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.sampleapp.databinding.FragmentShowDataBinding
+import com.example.accessibilitysampleapp.databinding.FragmentShowDataBinding
 
 class ShowDataFragment : Fragment() {
 
